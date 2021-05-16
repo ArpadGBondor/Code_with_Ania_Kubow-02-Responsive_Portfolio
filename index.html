@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Portfolio</title>
+    <link rel="stylesheet" href="src/styles.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="src/font-awesome/css/all.min.css" />
+  </head>
+  <body>
+    <section class="hero">
+      <nav>
+        <img class="logo" src="src/images/logo.png" alt="Ania Kubów's logo image" />
+        <ul class="nav-list" id="nav-list">
+          <li><a href="#about-me">About me</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="hamburger" id="hamburger"><i class="fas fa-bars"></i></button>
+      </nav>
+      <div class="hero-area">
+        <div class="hero-text">
+          <h1>Ania Kubów</h1>
+          <p>Full Stack Developer</p>
+          <div class="button"><a href="#about-me">About me</a></div>
+        </div>
+        <div class="socials">
+          <a href="https://twitter.com" class="social"><i class="fab fa-twitter social-icon"></i></a>
+          <a href="https://linkedin.com" class="social"><i class="fab fa-linkedin social-icon"></i></a>
+          <a href="https://github.com" class="social"><i class="fab fa-github social-icon"></i></a>
+        </div>
+      </div>
+    </section>
+    <section class="sub-section" id="about-me">
+      <div class="information">
+        <h2>About me</h2>
+        <p>Hello. My name is Ania Kubov. I am a Software Developer and Youtuber with a passion for teaching.</p>
+      </div>
+      <div class="headshot-container">
+        <img class="headshot" src="src/images/headshot.jpg" alt="" />
+      </div>
+    </section>
+    <section class="sub-section projects-section" id="projects">
+      <h2>Projects</h2>
+      <div class="project-container">
+        <div class="project-card">
+          <img class="project-image" src="src/images/project1.jpg" alt="Project One Image" />
+          <h3>Project One</h3>
+          <p class="subtext">This is my project and some text about it. I enjoyed making this project</p>
+          <hr />
+          <p class="subtext"><a class="project-link" href="https://github.com/kubowania">View here</a></p>
+        </div>
+        <div class="project-card">
+          <img class="project-image" src="src/images/project2.jpg" alt="Project Two Image" />
+          <h3>Project Two</h3>
+          <p class="subtext">This is my project and some text about it. I enjoyed making this project</p>
+          <hr />
+          <p class="subtext"><a class="project-link" href="https://github.com/kubowania">View here</a></p>
+        </div>
+        <div class="project-card">
+          <img class="project-image" src="src/images/project3.png" alt="Project Three Image" />
+          <h3>Project Three</h3>
+          <p class="subtext">This is my project and some text about it. I enjoyed making this project</p>
+          <hr />
+          <p class="subtext"><a class="project-link" href="https://github.com/kubowania">View here</a></p>
+        </div>
+        <div class="project-card">
+          <img class="project-image" src="src/images/project4.jpg" alt="Project Four Image" />
+          <h3>Project Four</h3>
+          <p class="subtext">This is my project and some text about it. I enjoyed making this project</p>
+          <hr />
+          <p class="subtext"><a class="project-link" href="https://github.com/kubowania">View here</a></p>
+        </div>
+      </div>
+    </section>
+    <footer id="contact">
+      <h2>Contact me</h2>
+      <p>kubowania@gmail.com</p>
+    </footer>
+    <script src="src/app.js"></script>
+  </body>
+</html>
