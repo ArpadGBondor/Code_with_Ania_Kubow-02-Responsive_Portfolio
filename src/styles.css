@@ -218,8 +218,14 @@ img.headshot {
     padding: 5%;
   }
 
+  .about-me-section {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
   .headshot-container {
-    margin-top: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
 
   .nav-list {
